@@ -11,6 +11,10 @@ mkdir build; cd build; cmake ..; make
 ```
 
 ##### Dependency
-- libigl
+NOTE: compiling in Ubuntu 20.04 causes seg faults for some reason
+- build-essential
+- xorg-dev
+- libgl1-mesa-dev
+- libigl --> cloned from repo
 - eigen3
-- ShapeOp	
+- ShapeOp
